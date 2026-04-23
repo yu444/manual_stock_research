@@ -27,6 +27,9 @@ The result: a growing, auditable record of *which AI thinks better about markets
 ---
 <img width="2100" height="1500" alt="image" src="https://github.com/user-attachments/assets/635b61e3-741d-45c3-b692-6184a9362ff5" />
 
+<img width="2382" height="1771" alt="image" src="https://github.com/user-attachments/assets/9e6b3b2b-a43e-4b28-8109-376664b5c9a6" />
+
+<img width="2370" height="1771" alt="image" src="https://github.com/user-attachments/assets/44f8e40b-bcb1-4c14-bd43-9098e43ec793" />
 
 ## Why This Matters
 
