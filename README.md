@@ -1,12 +1,59 @@
 # Manual_Stock
 
-Benchmarking Multi-LLM Investment Signals in Real-Time
+> **The first systematic, real-time benchmark of LLM investment signal quality.**
 
-## 🚀 Access
+Every trading day, three AI models — Claude, DeepSeek, and Gemini — independently generate BUY/HOLD/SELL signals on 11 high-conviction tech stocks. Each signal is timestamped before the market opens. No hindsight. No cherry-picking. Just daily predictions measured against actual price outcomes.
 
-- **Live Dashboard:** https://manual-stock.duckdns.org/web/login.html
-- **Research Paper:** [Benchmarking Multi-LLM Investment Signals: Accuracy, Consensus, and the Augmented Analyst Edge in Daily Stock Recommendations by Qiyu Zhang :: SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6515058)
+The result: a growing, auditable record of *which AI thinks better about markets* — and whether any of them can beat a careful human analyst.
 
 ---
 
-**Daily tracking of stock signals from Claude, DeepSeek, Gemini, and manual analysis.**
+## What's Being Tracked
+
+**11 tickers:** NVDA · AMD · QCOM · MSFT · PYPL · GOOG · META · ASML · TSM · AVGO · MU
+
+**5 signal sources per ticker, per day:**
+| Source | Type |
+|--------|------|
+| 🧠 Claude | Anthropic LLM |
+| 🐋 DeepSeek | Chinese frontier LLM |
+| ✨ Gemini | Google LLM |
+| 🎮 Game Theory | DeepSeek re-run with Nash equilibrium framework |
+| 🧑‍💻 Me | Human contrarian baseline |
+
+---
+
+## Why This Matters
+
+LLMs are increasingly used for financial analysis. But no one has systematically asked: **do they actually get it right?**
+
+This project runs that experiment in production — real money, real signals, real outcomes. Key research questions:
+
+- Does model consensus outperform individual models?
+- Does a human contrarian beat the AI herd?
+- Which models are regime-aware vs. trend-following?
+- Can game theory framing improve signal quality?
+
+---
+
+## Live Dashboard
+
+**[📊 manual-stock.duckdns.org](https://manual-stock.duckdns.org/web/login.html)**
+
+Ticker cards with signal badges · Performance charts · Full reasoning per model · Daily updates
+
+---
+
+## Research Paper
+
+**[📄 Benchmarking Multi-LLM Investment Signals: Accuracy, Consensus, and the Augmented Analyst Edge](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6515058)**
+
+*Qiyu Zhang — SSRN Preprint, 2026*
+
+Formalizes the methodology: Information Coefficient tracking, per-model Sharpe ratios, Spearman correlation, chi-square signal independence tests, and regime-conditional accuracy analysis.
+
+---
+
+## Signal Methodology
+
+Each model receives identical market data daily and produces a structured signal:
