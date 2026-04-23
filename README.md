@@ -12,6 +12,9 @@ The result: a growing, auditable record of *which AI thinks better about markets
 
 **11 tickers:** NVDA · AMD · QCOM · MSFT · PYPL · GOOG · META · ASML · TSM · AVGO · MU
 
+<img width="1244" height="705" alt="image" src="https://github.com/user-attachments/assets/614c05b5-7eaa-4dda-96bb-261ff141b392" />
+
+
 **5 signal sources per ticker, per day:**
 | Source | Type |
 |--------|------|
@@ -22,6 +25,8 @@ The result: a growing, auditable record of *which AI thinks better about markets
 | 🧑‍💻 Me | Human contrarian baseline |
 
 ---
+<img width="2100" height="1500" alt="image" src="https://github.com/user-attachments/assets/635b61e3-741d-45c3-b692-6184a9362ff5" />
+
 
 ## Why This Matters
 
